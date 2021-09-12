@@ -18,7 +18,7 @@ if(number >= 74): discount = 0.20
 total_discount = total_purchase * discount
 total_pay = total_purchase - total_discount
 
-print(f"\nRandom number: {number}")
+print(f"\nNúmero aleatorio: {number}")
 print(f"Subtotal: ${total_purchase:,}")
-print(f"%{int(discount * 100)} Discount: ${total_discount:,}")
+print(f"{int(discount * 100)}% Descuento: ${total_discount:,}")
 print(f"Total: ${total_pay:,}")
